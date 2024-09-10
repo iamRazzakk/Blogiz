@@ -1,4 +1,6 @@
-const LoadingCard = () => {
+import { IBlogs } from "@/types";
+
+const LoadingCard = ({blog}:{blog:IBlogs}) => {
   return (
     <div className="card w-full bg-base-100 shadow-xl ">
       <div className="w-full h-36 bg-gray-100 rounded-xl"></div>
